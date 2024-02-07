@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@600;800&display=swap');
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Figtree', sans-serif;
+}
+
+
+
+.main-container{
+    background-color: hsl(47, 88%, 63%);
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-box{
+    background-color: white;
+    width: 400px ;
+    padding: 20px;
+    gap: 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 10px 10px black;
+    
+}
+
+.box-img{
+    height: 225px;
+    width: 100%;
+    background-image: url('Images/illustration-article.svg');
+    background-size: cover;
+    border-radius: 5px;
+}
+
+.para1{
+    background-color:hsl(47, 88%, 63%);
+    color: black;
+   width: fit-content;
+   padding-inline: 10px;
+   padding-block: 5px;
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 800;
+}
+
+.para1:hover{
+    opacity: 0.95;
+}
+
+.para2{
+    font-size: 0.85rem;
+}
+
+.text-section{
+    width: 100%;
+    border-radius: 5px;
+    
+}
+
+.text-section p{
+    color: hsl(0, 0%, 50%);
+}
+.text-section h2{
+    
+    margin-bottom: 10px;
+}
+
+.last-div{
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    
+}
+
+.last-div img{
+    margin-right: 10px;
+    height: 30px;
+    width: 30px;
+}
+
+.last-div p{
+    font-weight: 700;
+    font-size:1rem;
+}
